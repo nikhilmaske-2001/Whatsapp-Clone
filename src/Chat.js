@@ -15,6 +15,7 @@ function Chat() {
     const {roomId} = useParams();
     const [roomName, setRoomName] = useState("");
     const [messages, setMessages] = useState([]);
+    // eslint-disable-next-line no-unused-vars
     const [{user}, dispatch] = useStateValue();
 
     console.log(roomId);
